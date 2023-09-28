@@ -153,9 +153,9 @@ class Inventory():
                 cheapest_price = price
 
         return cheapest_laptop
-    #Big O - O(nr) -
-    #Big Theta - O(nr) -
-    #Big Omega - O(n) -
+    #Big O - O(nr) - Pior caso, ja que usa varios criterio. 
+    #Big Theta - O(nr) - Caso intermediario, ja que metade não precisa ser testado.
+    #Big Omega - O(n) - Melhor caso, ja que tem o uso de criterio.
 
 # Cria uma instância da classe Inventory com o arquivo CSV 'laptops.csv'
 inventory = Inventory('laptops.csv') 
