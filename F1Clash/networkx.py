@@ -10,10 +10,6 @@ team_scores = [car.car_atributes()[-1] for car in cg.all_cars]
 top_20_percent = sorted(
     cg.all_cars, key=lambda car: car.car_atributes()[-1], reverse=True)[:int(0.0001 * len(cg.all_cars))]
 
-# Itera sobre os carros no top 0.01% e imprime o nome do carro e o nome do sistema de freios
-for car in top_20_percent:
-    print(car.name, print(car.breaks.name))
-
 # Cria um grafo vazio usando NetworkX
 G = nx.Graph()
 
