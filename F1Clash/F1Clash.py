@@ -22,7 +22,3 @@ cg.all_cars.sort(key=lambda car: car.car_atributes()[-1], reverse=True)
 
 # Seleciona os carros de melhor desempenho com base no percentil 80
 top_cars = cg.all_cars[:percent_20]
-
-# Imprime informações sobre os carros de melhor desempenho
-for car in top_cars:
-    print(car.display_status())
