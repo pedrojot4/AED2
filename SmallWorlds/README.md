@@ -60,7 +60,5 @@ Clustering (Aglomeramento): O coeficiente de aglomeração mede o grau de agrupa
 
 Em resumo, a análise dessas métricas revela informações valiosas sobre as diferentes redes representadas na tabela. Cada rede possui suas próprias características distintas, refletindo a sua finalidade e a natureza das conexões entre seus nós. Essas métricas fornecem uma base para compreender a topologia e a dinâmica dessas redes, o que é fundamental em áreas como análise de redes sociais, estudos de conectividade na web e muito mais. É importante lembrar que essas métricas podem ser aplicadas em diversos contextos, permitindo uma análise mais aprofundada das redes e das interações que ocorrem dentro delas.
 
-## Video: https://www.loom.com/share/91a00be6b75a49f0b36812a6f5bb09d0?sid=a021f2cf-8673-4310-9808-6d509409d9ed
-
 
 
